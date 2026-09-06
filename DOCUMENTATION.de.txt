@@ -6,14 +6,17 @@ Projektstruktur seit 0.51.22
 
 Dieses Verzeichnis ist ein eigenstaendiges R4OS-SDK-Projekt fuer USBBOT.R4P.
 
-Build:
+Build aus dem Projektverzeichnis unter Windows:
 
-    cd Code\System\Protocols\UsbMscBot
-    ..\..\..\DevTools\Zig\zig.exe build
+    Build.bat
 
-Artefakt:
+Build aus dem Projektverzeichnis unter Linux:
 
-    zig-out\USBBOT.R4P
+    ./Build.sh
+
+Artefakt relativ zum Workspace-Root:
+
+    Artifacts/Modules/UsbMscBot/USBBOT.R4P
 
 Manifest:
 
